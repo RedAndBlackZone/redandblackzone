@@ -1,0 +1,533 @@
+/* STYLING DEFAULTS */
+
+/* Signature Colors */
+/* [#000000 Black] and [#FF3434 Tart Orange] as Red. 
+Alternate combination maybe [#733285 Maximum Purple] and [#C2C5FF Lavender Blue]. 
+[#FFFFFF White] can act as a breaker. */
+
+/* Fonts */
+/* Adobe Webkit '<link rel="stylesheet" href="https://use.typekit.net/llx6kjr.css">'.
+
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 400; Book
+font-style: normal;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 400; Book
+font-style: italic;
+------------------------------------------------------------
+font-family: regulator-nova, 'Century Gothic', sans-serif;
+font-weight: 500; Medium
+font-style: normal;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 500; Medium
+font-style: normal;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 500; Medium
+font-style: italic;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 600; Demi
+font-style: normal;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 900; Ultra
+font-style: normal; 
+------------------------------------------------------------
+*/
+
+/* GLOBAL STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid aqua; */
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: regulator-nova, 'Century Gothic', sans-serif;
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'industry', 'Arial Black', sans-serif;
+}
+h5 {
+    font-size: 1.4em;
+    color: #FF3434;
+}
+li {
+    margin-bottom: 0.5em;
+}
+p {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+}
+.black-section {
+    background-color: #FF3434;
+}
+.content-group {
+    margin: 0 0.25em;
+}
+.content-group a {
+    color: #FF3434;
+}
+.description {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+    /* font-size: 1.1em; */
+    font-style: normal;
+    color: #FF3434
+}
+.embedded-video {
+    border: 0.1rem solid #FF3434;
+    margin: auto;
+}
+.list {
+    /* font-size: 1.25em; */
+    color: black;
+    line-height: 1.4em;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.message-icon-size {
+    /* float: left;
+    margin-top: 1em;
+    margin-right: 1.2em; */
+    display: inline-block;
+    width: 4.285em;
+}
+.message-icon-size img {
+    width: 100%;
+    height: auto;
+}
+.red-section {
+    /* width: 60.5%; */
+    background-color: #FF3434;
+}
+.screenshot-img {
+    display: inline-block;
+    width: 20em;
+    margin: 0.25em;
+}
+.screenshot-img img {
+    width: 100%;
+    height: auto;
+    border: 0.1em solid #FF3434;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* <header> STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+header h1 {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-style: normal; 
+    font-size: 2em;
+    padding: 0.5em 0.25em 1em 0.25em;
+    line-height: 1.05;
+}
+.support-phrase {
+    display: inline-block;
+    font-family: 'regulator-nova', 'Century Gothic', sans-serif;
+    font-weight: 400; /* Book */
+}
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 1.77em;
+}
+
+/* <header> .red-section Styles */
+/* ------------------------------------------------------------ */
+nav {
+    clear: both;
+    float: right;
+    display: block;
+    width: 75%;
+    margin: 0 0.8em;
+}
+nav ul li {
+    display: block;
+}
+.menu-header {
+    margin-top: 0.2em;
+    border-top: 0.15em solid black;
+    border-bottom: 0.1em dashed black;
+    text-align: right;
+}
+.red-section-vertical {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-style: normal; 
+}
+.red-section-vertical div {
+    clear: left;
+    float: left;
+    padding: 0.26em 0 0.13em 0;
+    margin-left: 0.25em;
+}
+.second-level-menu {
+    margin-right: 1.29em;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 600; /* Demi */
+    font-style: normal;
+    font-size: 0.835em;
+}
+.top-level-menu {
+    display: block;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 1.47em;
+    font-style: italic;
+}
+#header-logo {
+    float: left;
+    width: 5.2em;
+    margin: 0.5em;
+}
+#header-logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* <header> .black-section Styles */
+/* ------------------------------------------------------------ */
+.black-section-vertical {
+    color: #FF3434;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    /* font-size: 3.25em; */
+    font-style: normal; 
+}
+.black-section-vertical div {
+    clear: left;
+    float: left;
+    margin-left: 0.25em;
+    padding: 0.13em 0 0.26em 0;
+    background-color: black;
+}
+#blog-link {
+    font-family: 'industry', '5arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-style: normal;
+    font-size: 1.64em;
+}
+#blog-menu {
+    display: none;
+}
+#blog-menu-head {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 400; /* Book */
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/* <main> STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* <main> .red-section Styles */
+/* ------------------------------------------------------------ */
+.contact-form {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+}
+.contact-label {
+    font-size: 1.25em;
+}
+.fieldset {
+    width: 80%;
+    margin: 2em 30em 2em 0;
+}
+.label {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 1.2em;
+}
+.folio-header {
+    align-self: flex-end;
+}
+.folio-subject {
+    display: flex;
+    min-height: 4em;
+    padding: 0 0.4em;
+}
+.folio-subject h2 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    /* vertical-align: text-bottom; */
+    color: black;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-size: 0.7em;
+    font-style: normal; 
+    font-weight: 900; /* Ultra */
+}
+.folio-subject h3 {
+    display: none;
+    /* font-family: 'industry', 'arial-black', sans-serif;
+    font-size: 1.05em;
+    font-style: italic; 
+    font-weight: 500; Medium */
+}
+.mini-folio-header {
+    align-self: flex-end;
+}
+.mini-folio-subject {
+    display: flex;
+    min-height: 4em;
+    padding: 0 0.4em;
+}
+.mini-folio-subject h2 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    /* vertical-align: text-bottom; */
+    color: black;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-size: 0.7em;
+    font-style: normal; 
+    font-weight: 900; /* Ultra */
+}
+.mini-folio-subject h3 {
+    color: black;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-size: 0.7em;
+    font-style: italic; 
+    font-weight: 500; /* Medium */
+}
+.form-box {
+    border: 0.1em solid #FF3434;
+    background-color:rgba(255, 0, 0, 0.06);
+    font-size: 1.25em;
+    margin-top: 0.8em;
+}
+.sm-div {
+    clear: both;
+    text-align: center;
+    padding: 2em 0.5em;
+}
+.sm-div ul {
+    list-style: none;
+    display: inline;
+}
+.sm-div li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.sm-icon-size {
+    display: inline-block;
+    width: 2.63em;
+}
+.sm-icon-size img {
+    width: 100%;
+    height: auto;
+}
+#portfolio-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 21em;
+    height: 21em;
+}
+#folio-top {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-color: #F0E68C;
+    border: 0.6em solid #DAA520;
+}
+#folio-right {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    display: flex;
+    background-color: #87CEFA;
+    border: 0.6em solid #1E90FF;
+}
+#folio-bottom {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: flex;
+    background-color: #90EE90;
+    border: 0.6em solid #228B22;
+}
+#folio-left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: flex;
+    background-color: #EE82EE;
+    border: 0.6em solid #8B008B;
+}
+#folio-center {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    background-color: #F08080;
+    border: 0.6em solid #FF3434;
+}
+#mini-portfolio-block {
+    /* float: right; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1em auto;
+    width: 21em;
+    height: 21em;
+}
+#mini-folio-top {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-color: #F0E68C;
+    border: 0.6em solid #DAA520;
+}
+#mini-folio-right {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    display: flex;
+    background-color: #87CEFA;
+    border: 0.6em solid #1E90FF;
+}
+#mini-folio-bottom {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: flex;
+    background-color: #90EE90;
+    border: 0.6em solid #228B22;
+}
+#mini-folio-left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: flex;
+    background-color: #EE82EE;
+    border: 0.6em solid #8B008B;
+}
+#mini-folio-center {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    background-color: #F08080;
+    border: 0.6em solid #FF3434;
+}
+#services {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-color: #F0E68C;
+    border: 0.7em solid #DAA520;
+}
+#web-design {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    display: flex;
+    background-color: #87CEFA;
+    border: 0.7em solid #1E90FF;
+}
+#contacts {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: flex;
+    background-color: #90EE90;
+    border: 0.7em solid #228B22;
+}
+#film-digital {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: flex;
+    background-color: #EE82EE;
+    border: 0.7em solid #8B008B;
+}
+#blog {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    background-color: #F08080;
+    border: 0.7em solid #FF3434;
+}
+#red-content-bg {
+    padding: 2em 0.5em;
+    background-color: rgba(255, 255, 255, 0.83);
+}
+
+/* <main> .black-section Styles */
+/* ------------------------------------------------------------ */
+.h3-head {
+    margin-top: 0.4em;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-size: 1.3em;
+    font-style: normal; 
+    color: #FF3434;
+}
+.h4-head {
+    margin-bottom: 0.4em;
+    padding-top: 2em;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 1.1em;
+    font-style: italic;
+    /* outline: 1px solid blue; */
+}
+.h3-red-bg-head {
+    color: black;
+}
+#black-bg-content {
+    margin: 0 0 0 0.25em;
+}
+#black-content-bg {
+    padding: 2em 0.5em;
+    background-color: rgba(255, 255, 255, 0.83);
+}
+/* <footer> STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* <footer> .red-section Styles */
+/* ------------------------------------------------------------ */
+#copyright-privacy a {
+    color: #FF3434;
+    text-decoration: underline;
+}
+#copyright-privacy {
+    text-align: center;
+    padding: 2em 0.5em;
+    color: #FF3434;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 600; /* Demi */
+    font-style: normal; 
+    font-size: 0.8em;
+    background-color: black;
+}
+
+/* <footer> .black-section Styles */
+/* ------------------------------------------------------------ */
+#contact-head {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 400; /* Book */
+    font-size: 1.47rem;
+    font-style: italic;
+}
+#footer-contacts a {
+    text-decoration: underline;
+    color: #FF3434;
+}
+#footer-contacts {
+    /* margin: 0.35em 0 0.9em 1.4em; */
+    text-align: center;
+    padding: 2em 0.5em;
+    background-color: black;
+    color: #FF3434;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 600; /* Demi */
+    font-style: normal; 
+    font-size: 1.05em;
+    line-height: 2em;
+}

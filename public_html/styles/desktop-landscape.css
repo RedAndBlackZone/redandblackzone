@@ -1,0 +1,674 @@
+/* 
+STYLING DEFAULTS 
+
+Signature Colors
+[#000000 Black] and [#FF3434 Tart Orange] as Red. 
+Alternate combination maybe [#733285 Maximum Purple] and [#C2C5FF Lavender Blue]. 
+[#FFFFFF White] can act as a breaker.
+
+Fonts
+Adobe Webkit '<link rel="stylesheet" href="https://use.typekit.net/llx6kjr.css">'.
+
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 400; Book
+font-style: normal;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 400; Book
+font-style: italic;
+------------------------------------------------------------
+font-family: regulator-nova, 'Century Gothic', sans-serif;
+font-weight: 500; Medium
+font-style: normal;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 500; Medium
+font-style: normal;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 500; Medium
+font-style: italic;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 600; Demi
+font-style: normal;
+------------------------------------------------------------
+font-family: 'industry', 'arial-black', sans-serif;
+font-weight: 900; Ultra
+font-style: normal; 
+------------------------------------------------------------
+*/
+
+/* GLOBAL STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid aqua; */
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: regulator-nova, 'Century Gothic', sans-serif;
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'industry', 'Arial Black', sans-serif;
+}
+h5 {
+    font-size: 1.4em;
+    color: black;
+}
+li {
+    margin-bottom: 0.5em;
+}
+p {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 1.4em;
+}
+.black-section {
+    width: 39.5%;
+    color: #FF3434;
+    background-color: black;
+}
+.clear {
+    clear: both;
+}
+.content-group {
+    margin-top: 0.1em;
+    margin-bottom: 2em;
+    color: black;
+}
+.content-group a {
+    color: #FF3434;
+}
+.content-group li {
+    font-size: 1.4em;
+}
+.content-group p {
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+}
+.content-group ul {
+    padding-left: 2em;
+}
+.description {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 1.1em;
+    font-style: normal;
+    color: #FF3434
+}
+.list {
+    font-size: 1.25em;
+    color: black;
+    line-height: 2em;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.message-icon-size {
+    float: left;
+    margin-top: 1em;
+    margin-right: 1.2em;
+    width: 6em;
+}
+.message-icon-size img {
+    width: 100%;
+    height: auto;
+}
+.red-section {
+    width: 60.5%;
+    background-color: #FF3434;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* <header> STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+header {
+    display: flex;
+    width: 100%;
+}
+header h1 {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-style: normal; 
+    font-size: 2.75em;
+}
+.support-phrase {
+    font-family: 'regulator-nova', 'Century Gothic', sans-serif;
+    font-weight: 400; /* Book */
+}
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+/* <header> .red-section Styles */
+/* ------------------------------------------------------------ */
+nav {
+    margin-top: 2.55em;
+}
+nav ul li {
+    display: inline-block;
+}
+.red-section-vertical {
+    float: right;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-size: 3.25em;
+    font-style: normal; 
+}
+.red-section-vertical div {
+    display: inline;
+    margin-top: 1.52em;
+    margin-left: -0.43em;
+    margin-right: -0.06em;
+}
+.second-level-menu {
+    margin-top: 0.37em;
+    margin-right: 1.29em;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 600; /* Demi */
+    font-style: normal;
+    font-size: 0.835em;
+}
+.top-level-menu {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 1.47em;
+    font-style: italic;
+}
+#header-logo {
+    float: left;
+    width: 10.2em;
+    margin: 2.2em 1.4em 0 2.28em;
+}
+#header-logo img {
+    width: 100%;
+    height: auto;
+}
+#logo-nav {
+    display: inline-block;
+    padding-top: 2.4em;
+}
+
+/* <header> .black-section Styles */
+/* ------------------------------------------------------------ */
+.black-section-vertical {
+    float: left;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-size: 3.25em;
+    font-style: normal; 
+}
+.black-section-vertical div {
+    display: inline;
+    margin-top: 0.4em;
+    margin-left: -0.18em;
+    margin-right: -0.33em;
+
+}
+#blog-menu a {
+    color: #FF3434;
+}
+#blog-link {
+    margin-top: 0.25em;
+    font-family: 'industry', '5arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-style: normal;
+    font-size: 1.64em;
+}
+#blog-menu {
+    float: right;
+    text-align: right;
+    margin: 3em 4.96em 0 0;
+}
+#blog-menu-head {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 400; /* Book */
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/* <main> STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+main {
+    display: flex;
+    width: 100%;
+}
+.embedded-video {
+    margin-top: 1.35em;
+    width: 30em;
+    height: 16.875em;
+    border: 0.1rem solid #FF3434;
+}
+.h3-head {
+    margin-top: 0.4em;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 900; /* Ultra */
+    font-size: 1.65em;
+    font-style: normal; 
+    color: #FF3434;
+}
+.h4-head {
+    margin-bottom: 0.4em;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 1.5em;
+    font-style: italic;
+    color: black;
+}
+
+/* <main> .red-section Styles */
+/* ------------------------------------------------------------ */
+.contact-form {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+}
+.contact-label {
+    font-size: 1.25em;
+}
+.folio-header {
+    align-self: flex-end;
+}
+.folio-subject {
+    display: flex;
+    min-height: 8.4em;
+    padding: 0 1em;
+}
+.folio-subject h2 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    /* vertical-align: text-bottom; */
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-size: 1.25em;
+    font-style: normal; 
+    font-weight: 900; /* Ultra */
+}
+.folio-subject h3 {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-size: 1.05em;
+    font-style: italic; 
+    font-weight: 500; /* Medium */
+}
+.mini-folio-header {
+    align-self: flex-end;
+}
+.mini-folio-subject {
+    display: flex;
+    min-height: 4em;
+    padding: 0 0.4em;
+}
+.mini-folio-subject h2 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    /* vertical-align: text-bottom; */
+    color: black;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-size: 0.7em;
+    font-style: normal; 
+    font-weight: 900; /* Ultra */
+}
+.mini-folio-subject h3 {
+    color: black;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-size: 0.7em;
+    font-style: italic; 
+    font-weight: 500; /* Medium */
+}
+.fieldset {
+    margin: 2em 30em 2em 0;
+}
+.label {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 1.2em;
+}
+.form-box {
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+    border: 0.1em solid #FF3434;
+    background-color:rgba(255, 0, 0, 0.06);
+    font-size: 1.25em;
+}
+.screenshot-img {
+    display: inline-block;
+    width: 20em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+.screenshot-img img {
+    width: 100%;
+    height: auto;
+    border: 0.1em solid #FF3434;
+}
+.sm-div {
+    float: left;
+    width: 2.6em;
+    margin: 7.1em 0 0 2.25em;
+}
+.sm-div ul {
+    list-style: none;
+    margin-bottom: 0.81em;
+}
+.sm-icon-size {
+    display: inline-block;
+    width: 2.63em;
+    margin-bottom: 0.24em;
+}
+.sm-icon-size img {
+    width: 100%;
+    height: auto;
+}
+#portfolio-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 7.1em auto 0 auto;
+    width: 42em;
+    height: 42em;
+}
+#folio-top {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-color: #F0E68C;
+    border: 0.7em solid #DAA520;
+}
+#folio-right {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    display: flex;
+    background-color: #87CEFA;
+    border: 0.7em solid #1E90FF;
+}
+#folio-bottom {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: flex;
+    background-color: #90EE90;
+    border: 0.7em solid #228B22;
+}
+#folio-left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: flex;
+    background-color: #EE82EE;
+    border: 0.7em solid #8B008B;
+}
+#folio-center {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    background-color: #F08080;
+    border: 0.7em solid #FF3434;
+}
+#mini-portfolio-block {
+    float: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0.8em;
+    width: 21em;
+    height: 21em;
+}
+#mini-folio-top {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background-color: #F0E68C;
+    border: 0.6em solid #DAA520;
+}
+#mini-folio-right {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    display: flex;
+    background-color: #87CEFA;
+    border: 0.6em solid #1E90FF;
+}
+#mini-folio-bottom {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: flex;
+    background-color: #90EE90;
+    border: 0.6em solid #228B22;
+}
+#mini-folio-left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: flex;
+    background-color: #EE82EE;
+    border: 0.6em solid #8B008B;
+}
+#mini-folio-center {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    background-color: #F08080;
+    border: 0.6em solid #FF3434;
+}
+#red-content-bg {
+    float: right;
+    margin-top: 2em;
+    width: 75.3em;
+    height: 56em;
+    background-color: rgba(255, 255, 255, 0.83);
+}
+#red-content {
+    display: flex;
+    float: right;
+    margin: 5.1em 0 0 0;
+}
+#right-red-content {
+    width: 90%;
+    margin-left: 5.1em;
+}
+
+/* <main> .black-section Styles */
+/* ------------------------------------------------------------ */
+
+.h4-black-bg-head {
+    color: #FF3434;
+}
+#black-bg-content {
+    margin: 7.1em 0 0 1.4em;
+}
+#black-content {
+    margin: 5.1em 0 0 1.4em;
+    width: 90%;
+}
+#black-content-bg {
+    display: inline-block;
+    margin: 2em 0 0 0;
+    width: 56.3em;
+    height: 56em;
+    background-color: rgba(255, 255, 255, 0.83);
+}
+/* <footer> STYLES */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+footer {
+    display: flex;
+    width: 100%;
+}
+
+/* <footer> .red-section Styles */
+/* ------------------------------------------------------------ */
+.sm-div-footer {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#copyright-privacy a {
+    text-decoration: underline;
+}
+#copyright-privacy {
+    float: right;
+    margin: 9.35em 1.22em 0.9em 0;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 600; /* Demi */
+    font-style: normal; 
+    font-size: 1.08em;
+}
+#copyright-privacy p {
+    display: inline-block;
+    margin-left: 1.2em;
+}
+
+/* <footer> .black-section Styles */
+/* ------------------------------------------------------------ */
+#contact-head {
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 400; /* Book */
+    font-size: 1.47rem;
+    font-style: italic;
+}
+#footer-contacts a {
+    text-decoration: underline;
+    color: #FF3434;
+}
+#footer-contacts {
+    margin: 0.35em 0 0.9em 1.4em;
+    font-family: 'industry', 'arial-black', sans-serif;
+    font-weight: 600; /* Demi */
+    font-style: normal; 
+    font-size: 1.05em;
+    line-height: 2.26em;
+}
+
+/* MEDIA QUERIES */
+
+/* LANDSCAPE MODE */
+
+@media screen and (max-width: 2304px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 2160px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 2000px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1920px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1680px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1440px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 6.5px;
+    }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 5.75px;
+    }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 5.1px;
+    }
+}
+
+@media screen and (max-width: 765px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 720px) and (orientation: landscape) {
+
+    /* GLOBAL STYLES */
+    /* ------------------------------------------------------------------------------------------------------------------------ */
+    html {
+        font-size: 4.8px;
+    }
+}
