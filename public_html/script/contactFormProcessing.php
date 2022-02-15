@@ -13,7 +13,7 @@
             $email = $_POST["email"];
             $phone = $_POST["phone"];
             $comment = $_POST["comment"];
-            echo "Thanks $firstName you'll hear from me soon.";
+            echo "Thanks " . htmlspecialchars($firstName) . " you'll hear from me soon.";
         ?>
     </body>
 </html>
