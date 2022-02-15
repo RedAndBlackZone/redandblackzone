@@ -10,9 +10,10 @@ Live website https://redandblackzone.com.
     - [ ] Seoul Visitors' Centre.
     - [ ] Special Cakes for Special Occasions.
 - [ ] Redesign the Front End page to include the latest version of the Sports Warehouse website.
-- [ ] Update the Resume Page with latest Cover Letter and Resume/Employment History.
-- [ ] Re-word the Resume Page text to reflect a Web Design role.
-- [ ] Update the education section to include Web Diploma.
+- [ ] Update the Resume Page.
+    - [ ] Add latest Cover Letter and Resume/Employment History.
+    - [ ] Re-word the Resume Page text to reflect a Web Design role.
+    - [ ] Update the education section to include Web Diploma.
 - [ ] Update the Services page.
 
 ## Fixes
