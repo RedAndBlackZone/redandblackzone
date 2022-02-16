@@ -107,6 +107,9 @@ p {
     font-style: normal;
     color: #FF3434
 }
+.italic {
+    font-style: italic;
+}
 .list {
     font-size: 1.25em;
     color: black;
@@ -246,6 +249,9 @@ nav ul li {
 main {
     display: flex;
     width: 100%;
+}
+.document-date {
+    font-size: 0.75em;
 }
 .embedded-video {
     margin-top: 1.35em;
