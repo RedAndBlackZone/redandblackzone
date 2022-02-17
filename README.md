@@ -11,6 +11,7 @@ Live website https://redandblackzone.com.
 - [ ] Redesign the Front End page to include the latest version of the Sports Warehouse website.
 - [ ] Update the Services page.
 - [ ] Re-Organise the B-ROLL BLOG.
+- [ ] Re-Design the coloured section menus.
 
 ## Fixes
 
