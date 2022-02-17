@@ -19,4 +19,4 @@ Live website https://redandblackzone.com.
 - [ ] Check through for grammar and spelling.
 - [ ] Fix the vertical 'RED AND BLACK ZONE' heading on Mac devices.
 - [ ] Add a site icon.
-- [ ] Re-Organise and combine the 'desk-top' and 'mobile-portrait' style sheets.
+- [ ] Re-Organise and combine the 'desktop-landscape' and 'mobile-portrait' style sheets.
