@@ -13,7 +13,7 @@ Live website https://redandblackzone.com.
 ## Major Additions
 
 - [x] Update the Resume page.
-- [ ] Update the Graphic and Web Design pages.
+- [x] Update the Graphic and Web Design pages.
 - [ ] Redesign CMS page to incorporate 2 additional examples of work.
 - [ ] Redesign the Front End page to include the latest version of the Sports Warehouse website.
 - [ ] Update the Services page.
