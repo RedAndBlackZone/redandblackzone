@@ -4,6 +4,12 @@ This is the main website portfolio of Steve Little (there's always something to 
 
 Live website https://redandblackzone.com.
 
+## Original Design Prototype
+
+![red-and-black-zone-home-design-opt](https://user-images.githubusercontent.com/34790235/155644065-d49a0653-c4c0-4fd5-8fe2-a716b299ed3c.png)
+
+![red-and-black-zone-contacts-design-opt](https://user-images.githubusercontent.com/34790235/155644106-985dac7c-24ac-4bb8-9280-94b56b5965f5.png)
+
 ## Major Additions
 
 - [x] Update the Resume page.
