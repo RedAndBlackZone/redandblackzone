@@ -4,12 +4,6 @@ This is the main website portfolio of Steve Little (there's always something to 
 
 Live website https://redandblackzone.com.
 
-## Original Design Prototype
-
-![red-and-black-zone-home-design-opt](https://redandblackzone.com/images/red-and-black-zone-home-design.png)
-
-![red-and-black-zone-home-design-opt](https://redandblackzone.com/images/red-and-black-zone-contacts-design.png)
-
 ## Major Additions
 
 - [x] Update the Resume page.
@@ -29,3 +23,9 @@ Live website https://redandblackzone.com.
 - [ ] Fix the vertical 'RED AND BLACK ZONE' heading on Mac devices.
 - [ ] Add a site icon.
 - [ ] Re-Organise and combine the 'desktop-landscape' and 'mobile-portrait' style sheets.
+
+## Original Design Prototype
+
+![red-and-black-zone-home-design-opt](https://redandblackzone.com/images/red-and-black-zone-home-design.png)
+
+![red-and-black-zone-home-design-opt](https://redandblackzone.com/images/red-and-black-zone-contacts-design.png)
