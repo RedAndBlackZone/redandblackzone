@@ -14,6 +14,7 @@ Live website https://redandblackzone.com.
 
 - [x] Update the Resume page.
 - [x] Update the Graphic and Web Design pages.
+- [ ] Implement a popup message explaining improvements to the site are under way and link to GitHub.
 - [ ] Redesign CMS page to incorporate 2 additional examples of work.
 - [ ] Redesign the Front End page to include the latest version of the Sports Warehouse website.
 - [ ] Update the Services page.
