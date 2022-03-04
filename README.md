@@ -12,6 +12,7 @@ Live website https://redandblackzone.com.
 - [ ] Redesign CMS page to incorporate 2 additional examples of work.
 - [ ] Redesign the Front End page to include the latest version of the Sports Warehouse website.
 - [ ] Update the Services page.
+- [ ] Improve the Mobile/Tablet Design.
 - [ ] Re-Organise the B-ROLL BLOG.
 - [ ] Re-Design the coloured section menus.
 
