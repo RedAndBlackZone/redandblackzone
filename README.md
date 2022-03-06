@@ -23,7 +23,7 @@ Live website https://redandblackzone.com.
 - [x] Correct 'contactFormProcessing.php' file location for contact form.
 - [ ] Check through for grammar and spelling.
 - [ ] Upgrade the confirmation page for the 'Contact Form'.
-- [ ] Correct the right section left margin on the 'Editing' and 'Screenwriting' pages.
+- [ ] Correct the left section left margin on the 'Editing' and 'Screenwriting' pages.
 - [ ] Create a 'portfolio' landing page.
 - [ ] Fix the vertical 'RED AND BLACK ZONE' heading on Mac devices.
 - [ ] Add a site icon.
