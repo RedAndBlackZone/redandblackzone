@@ -22,6 +22,8 @@ Live website https://redandblackzone.com.
 - [x] Fix unsanitized HTML output in contact form confirmation.
 - [x] Correct 'contactFormProcessing.php' file location for contact form.
 - [ ] Check through for grammar and spelling.
+- [ ] Upgrade the confirmation page for the 'Contact Form'.
+- [ ] Create a 'portfolio' landing page.
 - [ ] Fix the vertical 'RED AND BLACK ZONE' heading on Mac devices.
 - [ ] Add a site icon.
 - [ ] Re-Organise and combine the 'desktop-landscape' and 'mobile-portrait' style sheets.
