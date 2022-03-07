@@ -28,6 +28,7 @@ Live website https://redandblackzone.com.
 - [ ] Fix the vertical 'RED AND BLACK ZONE' heading on Mac devices.
 - [ ] Add a site icon.
 - [ ] Re-Organise and combine the 'desktop-landscape' and 'mobile-portrait' style sheets.
+- [ ] Add description meta tags to all pages.
 
 ## Original Design Prototype
 
