@@ -16,6 +16,7 @@ Live website https://redandblackzone.com.
 - [ ] Improve the accessibility according to WCAG and ARIA standards.
 - [ ] Re-Organise the B-ROLL BLOG.
 - [ ] Re-Design the coloured section menus.
+- [ ] Review the wording of the Privacy-Disclaimer page.
 
 ## Fixes
 
