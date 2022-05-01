@@ -22,7 +22,7 @@ Live website https://redandblackzone.com.
 
 - [x] Fix unsanitized HTML output in contact form confirmation.
 - [x] Correct 'contactFormProcessing.php' file location for contact form.
-- [ ] Check through for grammar and spelling.
+- [x] Check through for grammar and spelling.
 - [ ] Upgrade the confirmation page for the 'Contact Form'.
 - [ ] Correct the left section left margin on the 'Editing' and 'Screenwriting' pages.
 - [ ] Create a 'portfolio' landing page.
