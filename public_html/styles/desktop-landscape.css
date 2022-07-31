@@ -40,14 +40,17 @@ font-style: normal;
 */
 
 /* GLOBAL STYLES */
-/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------- */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* outline: 1px solid aqua; */
 }
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
     text-decoration: none;
     color: black;
 }
@@ -59,7 +62,12 @@ body {
     font-weight: 500; /* Medium */
     font-style: normal;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'industry', 'Arial Black', sans-serif;
 }
 h5 {
@@ -76,7 +84,7 @@ p {
 }
 .black-section {
     width: 39.5%;
-    color: #FF3434;
+    color: #ff3434;
     background-color: black;
 }
 .clear {
@@ -88,7 +96,7 @@ p {
     color: black;
 }
 .content-group a {
-    color: #FF3434;
+    color: #ff3434;
 }
 .content-group li {
     font-size: 1.4em;
@@ -105,7 +113,7 @@ p {
     font-weight: 500; /* Medium */
     font-size: 1.1em;
     font-style: normal;
-    color: #FF3434
+    color: #ff3434;
 }
 .italic {
     font-style: italic;
@@ -130,14 +138,14 @@ p {
 }
 .red-section {
     width: 60.5%;
-    background-color: #FF3434;
+    background-color: #ff3434;
 }
 .uppercase {
     text-transform: uppercase;
 }
 
 /* <header> STYLES */
-/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------- */
 header {
     display: flex;
     width: 100%;
@@ -145,7 +153,7 @@ header {
 header h1 {
     font-family: 'industry', 'arial-black', sans-serif;
     font-weight: 900; /* Ultra */
-    font-style: normal; 
+    font-style: normal;
     font-size: 2.75em;
 }
 .support-phrase {
@@ -159,6 +167,11 @@ header h1 {
 
 /* <header> .red-section Styles */
 /* ------------------------------------------------------------ */
+header .red-section {
+    display: flex;
+    outline: 1px solid white;
+    background: white;
+}
 nav {
     margin-top: 2.55em;
 }
@@ -166,17 +179,23 @@ nav ul li {
     display: inline-block;
 }
 .red-section-vertical {
-    float: right;
+    /* float: right; */
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    /* height: 100px; */
     font-family: 'industry', 'arial-black', sans-serif;
     font-weight: 900; /* Ultra */
     font-size: 3.25em;
-    font-style: normal; 
+    font-style: normal;
+    /* outline: 1px solid blue; */
 }
 .red-section-vertical div {
-    display: inline;
-    margin-top: 1.52em;
-    margin-left: -0.43em;
-    margin-right: -0.06em;
+    /* display: inline; */
+    /* margin-top: 1.52em; */
+    /* margin-left: -1em; */
+    /* margin-right: -2em; */
+    outline: 1px solid aquamarine;
 }
 .second-level-menu {
     margin-top: 0.37em;
@@ -208,22 +227,26 @@ nav ul li {
 
 /* <header> .black-section Styles */
 /* ------------------------------------------------------------ */
+header .black-section {
+    display: flex;
+    outline: 1px solid white;
+    background: white;
+}
 .black-section-vertical {
     float: left;
     font-family: 'industry', 'arial-black', sans-serif;
     font-weight: 900; /* Ultra */
     font-size: 3.25em;
-    font-style: normal; 
+    font-style: normal;
 }
 .black-section-vertical div {
     display: inline;
     margin-top: 0.4em;
     margin-left: -0.18em;
     margin-right: -0.33em;
-
 }
 #blog-menu a {
-    color: #FF3434;
+    color: #ff3434;
 }
 #blog-link {
     margin-top: 0.25em;
@@ -245,7 +268,7 @@ nav ul li {
 }
 
 /* <main> STYLES */
-/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------- */
 main {
     display: flex;
     width: 100%;
@@ -257,15 +280,15 @@ main {
     margin-top: 1.35em;
     width: 30em;
     height: 16.875em;
-    border: 0.1rem solid #FF3434;
+    border: 0.1rem solid #ff3434;
 }
 .h3-head {
     margin-top: 0.4em;
     font-family: 'industry', 'arial-black', sans-serif;
     font-weight: 900; /* Ultra */
     font-size: 1.65em;
-    font-style: normal; 
-    color: #FF3434;
+    font-style: normal;
+    color: #ff3434;
 }
 .h4-head {
     margin-bottom: 0.4em;
@@ -299,13 +322,13 @@ main {
     /* vertical-align: text-bottom; */
     font-family: 'industry', 'arial-black', sans-serif;
     font-size: 1.25em;
-    font-style: normal; 
+    font-style: normal;
     font-weight: 900; /* Ultra */
 }
 .folio-subject h3 {
     font-family: 'industry', 'arial-black', sans-serif;
     font-size: 1.05em;
-    font-style: italic; 
+    font-style: italic;
     font-weight: 500; /* Medium */
 }
 .mini-folio-header {
@@ -323,14 +346,14 @@ main {
     color: black;
     font-family: 'industry', 'arial-black', sans-serif;
     font-size: 0.7em;
-    font-style: normal; 
+    font-style: normal;
     font-weight: 900; /* Ultra */
 }
 .mini-folio-subject h3 {
     color: black;
     font-family: 'industry', 'arial-black', sans-serif;
     font-size: 0.7em;
-    font-style: italic; 
+    font-style: italic;
     font-weight: 500; /* Medium */
 }
 .fieldset {
@@ -344,8 +367,8 @@ main {
 .form-box {
     margin-top: 0.8em;
     margin-bottom: 0.4em;
-    border: 0.1em solid #FF3434;
-    background-color:rgba(255, 0, 0, 0.06);
+    border: 0.1em solid #ff3434;
+    background-color: rgba(255, 0, 0, 0.06);
     font-size: 1.25em;
 }
 .screenshot-img {
@@ -357,7 +380,7 @@ main {
 .screenshot-img img {
     width: 100%;
     height: auto;
-    border: 0.1em solid #FF3434;
+    border: 0.1em solid #ff3434;
 }
 .sm-div {
     float: left;
@@ -388,36 +411,36 @@ main {
 #folio-top {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    background-color: #F0E68C;
-    border: 0.7em solid #DAA520;
+    background-color: #f0e68c;
+    border: 0.7em solid #daa520;
 }
 #folio-right {
     grid-column: 3 / 4;
     grid-row: 1 / 3;
     display: flex;
-    background-color: #87CEFA;
-    border: 0.7em solid #1E90FF;
+    background-color: #87cefa;
+    border: 0.7em solid #1e90ff;
 }
 #folio-bottom {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
     display: flex;
-    background-color: #90EE90;
-    border: 0.7em solid #228B22;
+    background-color: #90ee90;
+    border: 0.7em solid #228b22;
 }
 #folio-left {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
     display: flex;
-    background-color: #EE82EE;
-    border: 0.7em solid #8B008B;
+    background-color: #ee82ee;
+    border: 0.7em solid #8b008b;
 }
 #folio-center {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: flex;
-    background-color: #F08080;
-    border: 0.7em solid #FF3434;
+    background-color: #f08080;
+    border: 0.7em solid #ff3434;
 }
 #mini-portfolio-block {
     float: right;
@@ -431,36 +454,36 @@ main {
 #mini-folio-top {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    background-color: #F0E68C;
-    border: 0.6em solid #DAA520;
+    background-color: #f0e68c;
+    border: 0.6em solid #daa520;
 }
 #mini-folio-right {
     grid-column: 3 / 4;
     grid-row: 1 / 3;
     display: flex;
-    background-color: #87CEFA;
-    border: 0.6em solid #1E90FF;
+    background-color: #87cefa;
+    border: 0.6em solid #1e90ff;
 }
 #mini-folio-bottom {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
     display: flex;
-    background-color: #90EE90;
-    border: 0.6em solid #228B22;
+    background-color: #90ee90;
+    border: 0.6em solid #228b22;
 }
 #mini-folio-left {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
     display: flex;
-    background-color: #EE82EE;
-    border: 0.6em solid #8B008B;
+    background-color: #ee82ee;
+    border: 0.6em solid #8b008b;
 }
 #mini-folio-center {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: flex;
-    background-color: #F08080;
-    border: 0.6em solid #FF3434;
+    background-color: #f08080;
+    border: 0.6em solid #ff3434;
 }
 #red-content-bg {
     float: right;
@@ -483,7 +506,7 @@ main {
 /* ------------------------------------------------------------ */
 
 .h4-black-bg-head {
-    color: #FF3434;
+    color: #ff3434;
 }
 #black-bg-content {
     margin: 7.1em 0 0 1.4em;
@@ -500,7 +523,7 @@ main {
     background-color: rgba(255, 255, 255, 0.83);
 }
 /* <footer> STYLES */
-/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------- */
 footer {
     display: flex;
     width: 100%;
@@ -520,7 +543,7 @@ footer {
     margin: 9.35em 1.22em 0.9em 0;
     font-family: 'industry', 'arial-black', sans-serif;
     font-weight: 600; /* Demi */
-    font-style: normal; 
+    font-style: normal;
     font-size: 1.08em;
 }
 #copyright-privacy p {
@@ -538,13 +561,13 @@ footer {
 }
 #footer-contacts a {
     text-decoration: underline;
-    color: #FF3434;
+    color: #ff3434;
 }
 #footer-contacts {
     margin: 0.35em 0 0.9em 1.4em;
     font-family: 'industry', 'arial-black', sans-serif;
     font-weight: 600; /* Demi */
-    font-style: normal; 
+    font-style: normal;
     font-size: 1.05em;
     line-height: 2.26em;
 }
@@ -554,126 +577,112 @@ footer {
 /* LANDSCAPE MODE */
 
 @media screen and (max-width: 2304px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 2160px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 2000px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 13px;
     }
 }
 
 @media screen and (max-width: 1920px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 1680px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 11px;
     }
 }
 
 @media screen and (max-width: 1600px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 10px;
     }
 }
 
 @media screen and (max-width: 1440px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 9px;
     }
 }
 
 @media screen and (max-width: 1280px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 8px;
     }
 }
 
 @media screen and (max-width: 1200px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 7px;
     }
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 6.5px;
     }
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 5.75px;
     }
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 5.1px;
     }
 }
 
 @media screen and (max-width: 765px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 5px;
     }
 }
 
 @media screen and (max-width: 720px) and (orientation: landscape) {
-
     /* GLOBAL STYLES */
-    /* ------------------------------------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------- */
     html {
         font-size: 4.8px;
     }
