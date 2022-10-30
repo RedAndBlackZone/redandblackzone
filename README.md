@@ -6,30 +6,30 @@ Live website https://redandblackzone.com.
 
 ## Major Additions
 
-- [x] Update the Resume page.
-- [x] Update the Graphic and Web Design pages.
-- [ ] Implement a Popup Message With Link to Github.
-- [ ] Redesign CMS page to incorporate 2 additional examples of work.
-- [ ] Redesign the Front End page to include the latest version of the Sports Warehouse website.
-- [ ] Update the Services page.
-- [ ] Improve the Mobile/Tablet Design.
-- [ ] Improve the accessibility according to WCAG and ARIA standards.
-- [ ] Re-Organise the B-ROLL BLOG.
-- [ ] Re-Design the coloured section menus.
-- [ ] Review the wording of the Privacy-Disclaimer page.
+- [x] Update the Resume page
+- [x] Update the Graphic and Web Design Pages
+- [ ] Implement a Popup Message With Link to Github
+- [ ] Redesign CMS Page to Incorporate 2 Additional Examples of Work
+- [ ] Redesign the Front End Page to Include the Latest Version of the Sports Warehouse Website
+- [ ] Update the Services Page
+- [ ] Improve the Mobile/Tablet Design
+- [ ] Improve the Accessibility According to WCAG and Aria Standards
+- [ ] Re-Organise the B-ROLL BLOG
+- [ ] Redesign the Coloured Section Menus
+- [ ] Review the Wording of the Privacy-Disclaimer Page
 
 ## Fixes
 
-- [x] Fix unsanitized HTML output in contact form confirmation.
-- [x] Correct 'contactFormProcessing.php' file location for contact form.
-- [x] Check through for grammar and spelling.
-- [ ] Upgrade the confirmation page for the 'Contact Form'.
-- [ ] Correct the left section left margin on the 'Editing' and 'Screenwriting' pages.
-- [ ] Create a 'portfolio' landing page.
-- [ ] Fix the vertical 'RED AND BLACK ZONE' heading on Mac devices.
-- [x] Add a site icon.
-- [ ] Re-Organise and combine the 'desktop-landscape' and 'mobile-portrait' style sheets.
-- [ ] Add description meta tags to all pages.
+- [x] Fix Unsanitised HTML Output in Contact Form Confirmation
+- [x] Correct 'contactFormProcessing.php' File Location for Contact Form
+- [x] Check Through for Grammar and Spelling
+- [ ] Upgrade the Confirmation Page for the Site Contact Form
+- [ ] Correct the Left Section Left Margin on the Editing and Screenwriting Pages
+- [ ] Create a Portfolio Landing Page
+- [ ] Fix the Vertical RED AND BLACK ZONE Heading on Mac Devices
+- [x] Add a Site Favicon.
+- [ ] Re-Organise and Combine the 'desktop-landscape' and 'mobile-portrait' Style Sheets
+- [ ] Add Description Meta Tags to All Pages
 
 ## Original Design Prototype
 
