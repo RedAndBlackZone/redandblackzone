@@ -27,7 +27,7 @@ Live website https://redandblackzone.com.
 - [ ] Correct the left section left margin on the 'Editing' and 'Screenwriting' pages.
 - [ ] Create a 'portfolio' landing page.
 - [ ] Fix the vertical 'RED AND BLACK ZONE' heading on Mac devices.
-- [ ] Add a site icon.
+- [x] Add a site icon.
 - [ ] Re-Organise and combine the 'desktop-landscape' and 'mobile-portrait' style sheets.
 - [ ] Add description meta tags to all pages.
 
