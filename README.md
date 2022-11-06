@@ -30,7 +30,7 @@ Live website https://redandblackzone.com.
 - [x] Add a Site Favicon.
 - [ ] Re-Organise and Combine the 'desktop-landscape' and 'mobile-portrait' Style Sheets
 - [ ] Add Description Meta Tags to All Pages
-- [ ] Add Hotjar Tracking Code to All Pages
+- [x] Add Hotjar Tracking Code to All Pages
 
 ## Original Design Prototype
 
