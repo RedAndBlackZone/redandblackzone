@@ -171,6 +171,7 @@ nav ul li {
     font-weight: 900; /* Ultra */
     font-size: 3.25em;
     font-style: normal; 
+    width: 100px; /* required to force 'BLACK' & 'ZONE' beside each other. */
 }
 .red-section-vertical div {
     display: inline;
@@ -214,6 +215,7 @@ nav ul li {
     font-weight: 900; /* Ultra */
     font-size: 3.25em;
     font-style: normal; 
+    width: 100px; /* required to force 'BLACK' & 'ZONE' beside each other. */
 }
 .black-section-vertical div {
     display: inline;
