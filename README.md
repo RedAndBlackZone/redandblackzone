@@ -31,6 +31,7 @@ Live website https://redandblackzone.com.
 - [ ] Re-Organise and Combine the 'desktop-landscape' and 'mobile-portrait' Style Sheets [#10](https://github.com/RedAndBlackZone/redandblackzone/issues/10)
 - [ ] Add Description Meta Tags to All Pages [#21](https://github.com/RedAndBlackZone/redandblackzone/issues/21)
 - [x] Add Hotjar Tracking Code to All Pages [#25](https://github.com/RedAndBlackZone/redandblackzone/issues/25)
+- [ ] Add Google Tag to All Pages [#32](https://github.com/RedAndBlackZone/redandblackzone/issues/25)
 
 ## Original Design Prototype
 
