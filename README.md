@@ -35,6 +35,6 @@ Live website https://redandblackzone.com.
 
 ## Original Design Prototype
 
-![red-and-black-zone-home-design-opt](https://redandblackzone.com/images/red-and-black-zone-home-design.png)
+![red-and-black-zone-home-design-opt](./README-IMAGES/red-and-black-zone-home-design.png)
 
-![red-and-black-zone-home-design-opt](https://redandblackzone.com/images/red-and-black-zone-contacts-design.png)
+![red-and-black-zone-contacts-design-opt](./README-IMAGES/red-and-black-zone-contacts-design.png)
